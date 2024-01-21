@@ -17,7 +17,7 @@ public class AppV1Config {
         return new OrderServiceV1Impl(orderRepositoryV1());
     }
 
-    private OrderRepositoryV1 orderRepositoryV1() {
+    public OrderRepositoryV1 orderRepositoryV1() {
         return new OrderRepositoryV1Impl();
     }
 }
